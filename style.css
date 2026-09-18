@@ -1,0 +1,27 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+    border: 2px solid black;
+    .controls {
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  border: 2px solid #000;
+}
+
+.grid-square {
+  box-sizing: border-box; /* Ensures borders don't expand the element's total width */
+  border: 1px solid #ddd; /* Optional: adds a light grid line */
+}
+}
+
+.square {
+    background-color: lightgray;
+    border: 1px solid white; 
+    box-sizing: border-box; /* Crucial for controlling border sizes */
+}
+.square.hovered {
+    background-color: black; /* Defines the color of the pen trail */
+}
